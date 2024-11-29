@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    function doesNot(array) {
+        var arr = [];
+        for(var i = 0; i < array.length; i++) {
+            if(array[i] != 0) {
+                arr.push(array[i]);
+            }
+        }
+        console.log("不含0的数组：", arr);
+        return arr;
+    }
+    doesNot([2, 0,6, 1, 77, 0, 52, 0, 25, 7]);
+</script>
+</html>

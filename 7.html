@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    function max(array) {
+        var max = array[0];
+        for(var i = 0; i < array.length; i++) {
+            if(max < array[i]) {
+                max = array[i];
+            }
+        }
+        console.log("最大值为：", max);
+        return max;
+    }
+
+    // function max(array) {
+    //     var max = Math.max.apply(null, array);
+    //     console.log("最大值为：", max);
+    //     return max;
+    // }
+
+    max([2,6,1,77,52,25,7]);    
+</script>
+</html>

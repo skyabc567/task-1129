@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    function getSum(start,end) {
+        var sum = 0;
+        for(var i = 0; i <= end-start; i++) {
+            sum += (start + i)
+        }
+        alert("累加值为：" + sum);
+        return sum;
+    }
+    getSum(parseInt(prompt("请输入start")), parseInt(prompt("请输入end")));
+</script>
+</html>
